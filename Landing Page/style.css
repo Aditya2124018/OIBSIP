@@ -102,8 +102,8 @@ padding-top: 3svh;
         
             /* display: flex; */
             float:right;
-            width: 10svw;
-            height: 7svh;
+            width: 15svw;
+            height: 10svh;
         padding-top: 3svh;
     
     }
@@ -118,8 +118,8 @@ padding-top: 3svh;
     .clients>ul>li{
         display: inline-flex;
         justify-content: center;
-        width: 8svw;
-        height: 8svh;
+        width: 5svw;
+        height: 5svh;
         margin-top: 3dvh;
         padding-bottom: 5svh;
     }
