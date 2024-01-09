@@ -115,4 +115,12 @@ padding-top: 3svh;
         width: 12svw;
         font-size: small;
     }
+    .clients>ul>li{
+        display: inline-flex;
+        justify-content: center;
+        width: 8svw;
+        height: 8svh;
+        margin-top: 3dvh;
+        padding-bottom: 5svh;
+    }
 }
