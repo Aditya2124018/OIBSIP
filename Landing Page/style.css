@@ -97,3 +97,22 @@ padding-top: 3svh;
     margin: 10vh 5vw 5vw;
     
 }
+@media (max-width:400px){
+    #img{
+        
+            /* display: flex; */
+            float:right;
+            width: 10svw;
+            height: 7svh;
+        padding-top: 3svh;
+    
+    }
+    .intro > h1{
+        width: 20svw;
+        font-size: medium;
+    }
+    .intro > h2{
+        width: 24svw;
+        font-size: medium;
+    }
+}
