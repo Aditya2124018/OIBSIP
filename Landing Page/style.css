@@ -108,11 +108,11 @@ padding-top: 3svh;
     
     }
     .intro > h1{
-        width: 20svw;
-        font-size: medium;
+        width: 10svw;
+        font-size: small;
     }
     .intro > h2{
-        width: 24svw;
-        font-size: medium;
+        width: 12svw;
+        font-size: small;
     }
 }
