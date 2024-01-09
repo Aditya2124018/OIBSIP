@@ -97,7 +97,7 @@ padding-top: 3svh;
     margin: 10vh 5vw 5vw;
     
 }
-@media (max-width:400px){
+@media (max-width:300px){
     #img{
         
             /* display: flex; */
