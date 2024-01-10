@@ -66,7 +66,7 @@
     /* display: flex; */
     float:right;
     width: 20dvw;
-    height: 35dvh;
+    height: 38dvh;
 padding-top: 3svh;
 }
 .clients>h1{
@@ -85,9 +85,8 @@ padding-top: 3svh;
 .About{
     background-color:#eee3dc;
     border-bottom: 1px solid #eee3dc;
-    padding-top: 7svh;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    padding-top: 5svh;
+   border-radius: 60px;
 }
 .text-about{
     display: flex;
@@ -97,30 +96,46 @@ padding-top: 3svh;
     margin: 10vh 5vw 5vw;
     
 }
-@media (max-width:300px){
-    #img{
-        
-            /* display: flex; */
-            float:right;
-            width: 15svw;
-            height: 10svh;
-        padding-top: 3svh;
+.shop{
     
-    }
-    .intro > h1{
-        width: 10svw;
-        font-size: small;
-    }
-    .intro > h2{
-        width: 12svw;
-        font-size: small;
-    }
-    .clients>ul>li{
-        display: inline-flex;
-        justify-content: center;
-        width: 5svw;
-        height: 5svh;
-        margin-top: 3dvh;
-        padding-bottom: 5svh;
-    }
+
+    margin-top: 5svh;
+    background-color:#eee3dc;
+    border-bottom: 1px solid #eee3dc;
+    padding-top: 5svh;
+   border-radius: 60px;
+}
+
+
+.shop>ul>li{
+    display: inline-flex;
+    background-color: aliceblue;
+    justify-content: center;
+    width: 35svw;
+    height: 45svh;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-left: 8svw;
+    margin-top: 5dvh;
+    padding-bottom: 10svh;
+}
+.shop>ul>li>.buy{
+    margin-top: 45svh;
+    width: 8svw;
+    height: 4svh;
+    background-color: green;
+    border-radius: 25px;
+    margin-left:0;
+}
+.shop>ul>li>.addtocart{
+    margin-top: 45svh;
+    width: 8svw;
+    height: 4svh;
+    margin-left: 3svw;
+    background-color: rgb(255, 232, 21);
+    border-radius: 25px;
+}
+.shop>ul>li>img{
+    display: block;
+    float: inline-end;
 }
