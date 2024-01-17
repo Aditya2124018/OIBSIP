@@ -1,0 +1,15 @@
+🔹 At the top of the page, there’s a header with the logo “EspressoEssence” and a navigation bar containing links to “Home”, “About”, “Shop”, and “Contact”.
+
+🔹 Below the header, there’s a home section with an Introductory part.
+
+🔹 In the introductory part, there’s an image of coffee followed by a heading that says “Experience the soul of the bean with EspressoEssence”. There’s also a button that says “Get your first Coffee >>”.
+
+🔹 In the clients part, there’s a centered heading that says “Our Clients”. Below this heading, there’s a list of clients.
+
+🔹 The About section starts with a centered heading “About EspressoEssence”. Below the heading, there’s a block of text that provides an introduction to “EspressoEssence”. It talks about the brand’s journey, its commitment to quality and authenticity, its coffee-making process, its dedication to sustainability and fair trade practices, and its impact on coffee farming communities and the environment.
+
+🔹 The Shop section starts with a centered heading “Our Products”. Below the heading, there are two rows of products. Each product is represented by an image, a product name, a price, and two buttons for “Buy” and “Add to Cart”.
+
+🔹 The Contact Us section starts with a centered heading “Contact Us”. Below the heading, there’s a form for users to fill out. The form includes fields for the user’s email and name, as well as a larger text area for the user to describe how they can be helped. There’s also a “Submit” button to submit the form.
+
+🔹 The footer section contains a copyright notice that reads “© 2024 Oasis Infobyte. All rights Reserved”.
