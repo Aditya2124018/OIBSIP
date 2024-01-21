@@ -5,10 +5,13 @@
   }
   
   .sidebar {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 20px;
     width: 20%;
     height: 100vh;
     position: fixed;
-    background-color: #222;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +37,7 @@
     font-weight: 300;
   }
   .sidebar .logos{
-    /* display: inline; */
+  
     background-color: transparent;
     border:2px solid rgb(255, 255, 255);
     border-radius: 50%;
@@ -62,40 +65,80 @@
   
   .content {
     width: 100%;
-    height: 100vh;
-    margin-left: 20%;
-    background-color: #111;
+    /* height: 100vh; */
+    margin-left: 5%;
+    /* background-color: #111; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+     align-items: center;
     justify-content: center;
   }
   
   .content h1 {
     color: white;
     font-size: 40px;
-    margin: 20px;
+   
+    /* margin: 20px; */
   }
   
   .content h2 {
-    color: white;
+    color: rgb(218, 207, 207);
     font-size: 30px;
-    margin: 10px;
+    margin-left:6svw ;
+    margin-top: 6svh;
   }
   
   .content p {
     color: white;
     font-size: 20px;
-    margin: 10px;
+    /* margin: 10px; */
   }
   
-  .content span {
-    color: #00ff00;
+  span {
+    color: #00a86b;
     font-weight: bold;
   }
   .content h1{
     margin-top: 0%;
     margin-left: 10%;
     font-size: 70px;
+    margin-top: 6svh;
   }
-  
+#introbtn{
+    margin-left: 25svw;
+    margin-top: 20svh;
+    background: transparent;
+    padding: 1svh;
+    color:#bcbaba;
+    border-radius: 25px;
+    border: 1px solid #bcbaba;
+  }
+  .resume{
+    margin-left: 25svw;
+    
+
+  }
+.resume>h1{
+  margin-top: 3svw;
+
+}
+.resume .edu{
+  padding-left: 3svw;
+  margin-top: 3svw;
+  position: relative;
+  border-left: 1px solid #565656;
+
+
+}
+.circle{
+ 
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: #565656;
+  left: -8px;
+}
+.org{
+  padding-bottom:4vh;
+}
