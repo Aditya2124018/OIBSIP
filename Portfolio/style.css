@@ -46,12 +46,15 @@
     width: 50px;
     
   }
- 
+ .logos a{
+  color: white;
+ }
   .sidebar .logos:hover{
     border:2px solid #00a86b;
     color: #00a86b;
   }
   .sidebar button {
+    
     width: 80%;
     height: 5%;
     margin: 10px;
@@ -62,12 +65,19 @@
     font-size: 20px;
     cursor: pointer;
   }
-  
+
+  .sbbtn{
+    text-decoration: none;
+    color: white;
+  }
+  .sbbtn:hover{
+    
+    text-decoration: none;
+    color: white;
+  }
   .content {
     width: 100%;
-    /* height: 100vh; */
-    margin-left: 5%;
-    /* background-color: #111; */
+   
     display: flex;
     flex-direction: column;
      align-items: center;
@@ -78,7 +88,6 @@
     color: white;
     font-size: 40px;
    
-    /* margin: 20px; */
   }
   
   .content h2 {
@@ -91,7 +100,6 @@
   .content p {
     color: white;
     font-size: 20px;
-    /* margin: 10px; */
   }
   
   span {
@@ -141,4 +149,45 @@
 }
 .org{
   padding-bottom:4vh;
+}
+.skills #introbtn{
+  margin-left: 0px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.skills h1{
+  margin-bottom: 20px;
+}
+.col img{
+  height: 5rem;
+width: 5rem;
+}
+.col{
+  font-size: larger;
+  font-weight: 600;
+  display: flex;
+  
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: column;
+  align-items: center;
+  background: aliceblue;
+  color: black;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.contact>.row>.col>a{
+  background-color:rgb(243, 243, 243);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  
+}
+.contact #introbtn{
+  margin-left: 0px;
+  height: 40px;
+  margin-bottom: 20px;
 }
