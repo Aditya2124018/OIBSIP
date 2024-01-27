@@ -1,0 +1,30 @@
+.fluid{
+    width: 100svw;
+    height: 90svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+form{
+    padding: 20px;
+    width:30svw;
+    border: 2px solid rgb(223, 220, 220);
+    border-radius: 20px;
+    
+}
+#Result{
+    margin-left: 11px;
+    width: 26svw;
+     
+}
+input{
+border-top: none;
+border-right: none;
+border-left: none;
+    border-bottom:2px solid black ;
+}
+#btn{
+    margin-left: 10svw;
+}
